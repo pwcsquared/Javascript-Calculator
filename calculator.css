@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+:root {
+  --main-color: #5959a6;
+  --main-color-dark: #505095;
+}
+
+body {
+  background-color: #73738c;
+  font-family: Montserrat;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.calcContainer {
+  margin: 50px auto;
+  height: 300px;
+  width: 300px;
+  outline: 4px solid #222;
+}
+
+.calcDisplay {
+  background-color: white;
+  width: 300px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.displayOut {
+  color: #444;
+  margin: 0 15px;
+  text-align: right;
+  line-height: 60px;
+  font-size: 1.5em;
+}
+
+.btnRow {
+  display: flex;
+  height: 60px;
+}
+
+.calcBtn {
+  outline: 2px solid #222;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+}
+
+.numberBtn {
+  color: var(--main-color);
+  background-color: white;
+}
+
+.numberBtn:active {
+  background-color: #e6e6fa;
+}
+
+.funcBtn {
+  color: #fff;
+  background-color: var(--main-color);
+}
+
+.funcBtn:active {
+  background-color: var(--main-color-dark);
+}
+
+.clearBtn {
+  color: white;
+  background-color: var(--main-color);
+}
+
+.clearBtn:active {
+  background-color: var(--main-color-dark);
+}
